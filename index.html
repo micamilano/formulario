@@ -1,0 +1,186 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="Author" content="Multimedios Paraná" lang="es" />
+    <meta
+      name="copyright"
+      content="&copy; 2014, Multimedios Paraná"
+      lang="es"
+    />
+    <meta
+      name="description"
+      content="Asociación Civil de Mediación y Gestión de Conflictos, Entidad Capacitadora Habilitación Nº 157/01, del Libro de Entidades Capacitadoras de la Dirección Nacional de Promoción de Métodos Participativos de Justicia."
+    />
+    <meta
+      name="keywords"
+      content="mediación, justicia, entidad, Argentina, mediadores, judiciales, seguridad, derechos humanos, ministerio de justicia, entre rios, asociación civil, conflictos, gestión"
+    />
+    <title>INCRIPCIONES HUMANITA</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div id="body-container">
+      <main>
+        <div id="header">
+          <div id="header-container">
+            <div>
+              <h1>HUMANITA</h1>
+              <h3>ONG de Gestion de Conflicto y Mediación</h3>
+            </div>
+            <div>
+              <img src="./favicon.png" />
+            </div>
+          </div>
+        </div>
+
+        <form
+          id="main-contac-form"
+          class="contact-form"
+          method="POST"
+          name="contact-form"
+          action="sendbymail.php"
+        >
+          <h3>FICHA DE INSCRIPCIÓN</h3>
+          <div class="form-group">
+            <label for="img">TU FOTO</label>
+            <input
+              type="file"
+              class="form-control"
+              id="img"
+              name="img"
+            />
+          </div>
+          <div class="form-group">
+            <label for="select">CURSO</label>
+            <select
+              class="form-select"
+              id="select"
+              aria-label="Default select example"
+              name="selec"
+            >
+              <option selected></option>
+              <option value="1">Lorem ipsum dolor sit amet.</option>
+              <option value="2">Lorem ipsum dolor sit amet.</option>
+              <option value="3">Lorem ipsum dolor sit amet</option>
+              <option value="4">Lorem ipsum dolor sit amet</option>
+              <option value="5">Lorem ipsum dolor sit amet</option>
+              <option value="6">Lorem ipsum dolor sit amet</option>
+              <option value="7">Lorem ipsum dolor sit amet</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="apellido/nombre">APELLIDO Y NOMBRE</label>
+            <input
+              type="text"
+              class="form-control"
+              id="apellido/nombre"
+              name="nombre"
+            />
+          </div>
+          <div class="form-group">
+            <label for="dni">D.N.I</label>
+            <input type="number" class="form-control" id="dni" name="dni" />
+          </div>
+          <div class="form-group">
+            <label for="cuit">C.U.I.T.</label>
+            <input
+              type="number"
+              class="form-control"
+              id="CUIT"
+              placeholder="xx-xxxxxxxx-x"
+              name="cuit"
+            />
+          </div>
+          <div class="form-group">
+            <label for="domicilio">DOMICILIO DPTO/PISO</label>
+            <input
+              type="text"
+              class="form-control"
+              id="domicilio"
+              name="domicilio"
+            />
+          </div>
+          <div class="form-group">
+            <label for="localidad">LOCALIDAD</label>
+            <input
+              type="text"
+              class="form-control"
+              id="localidad"
+              name="localidad"
+            />
+          </div>
+          <div class="form-group">
+            <label for="cp">CODIGO POSTAL</label>
+            <input type="number" class="form-control" id="cp" name="cp" />
+          </div>
+          <div class="form-group">
+            <label for="profesion">PROFESIÓN</label>
+            <input
+              type="text"
+              class="form-control"
+              id="profesion"
+              name="profesion"
+            />
+          </div>
+          <div class="form-group">
+            <label for="telefono">TEL/CEL/FAX</label>
+            <input
+              type="number"
+              class="form-control"
+              id="telefono"
+              placeholder="sin 0 ni 15"
+              name="cel"
+            />
+          </div>
+          <div class="form-group">
+            <label for="correo">CORREO</label>
+            <input
+              type="email"
+              class="form-control"
+              id="correo"
+              placeholder="humanita@humanita.com"
+              name="correo"
+            />
+          </div>
+          <div class="form-group">
+            <label for="fecha">FECHA DE INSCRIPCIÓN</label>
+            <input
+              type="date"
+              class="form-control"
+              id="fecha"
+              placeholder=""
+              name="fecha"
+            />
+          </div>
+          <div id="firma-container">
+            <input type="text" id="firma" name="firma" />
+            <label for="firma">Firma y aclaración</label>
+          </div>
+          <button type="submit" id="btnSubmit" class="btn btn-primary">
+            ENVIAR
+          </button>
+        </form>
+      </main>
+      <footer>
+        <p>
+          Sede HUMANITA Cervantes 574 Tel: 0343-4231057/4233946
+          humanita.ong@gmail.com.
+        </p>
+        <p>
+          Atencion de lunes, miércoles y viernes de 9 a 13hs. Martes, jueves y
+          viernes de 14:30 a 17hs
+        </p>
+      </footer>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
