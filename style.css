@@ -3,7 +3,7 @@ body {
   max-width: 100vw;
   min-height: 100vh;
   max-height: max-content;
-  background-image: url(./aaaa.jpg);
+  background-image: url(./backgound.jpg);
   background-repeat: repeat-y;
   display: flex;
   justify-content: center;
