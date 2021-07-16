@@ -36,6 +36,11 @@ h1 {
   border-bottom: gray solid 1px;
 }
 
+#header-container div:last-of-type{
+display: flex;
+align-items: center;
+}
+
 form {
   margin: 25px 25px 40px 25px;
 }
