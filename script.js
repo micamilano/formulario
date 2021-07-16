@@ -6,4 +6,5 @@ function handler(){
     alert('hola');
 }
 
-//          action="sendbymail.php"
+
+
