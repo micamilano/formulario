@@ -4,8 +4,7 @@ body {
   min-height: 100vh;
   max-height: max-content;
   background-image: url(./aaaa.jpg);
-  background-repeat:repeat-y;
-  background-position: left;
+  background-repeat: repeat-y;
   display: flex;
   justify-content: center;
 }
@@ -53,7 +52,7 @@ form h3 {
 }
 
 #firma-container input {
-    border: none;
+  border: none;
   border-bottom: black solid 1px;
   width: 40%;
   background: none;
