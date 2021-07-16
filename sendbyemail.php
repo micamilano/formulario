@@ -16,7 +16,7 @@ if(isset($_POST['submit'])){
     !isset=$_POST['correo']; 
     !isset=$_POST['fecha'];
     !isset=$_POST['firma'];
-    $para= 'micaa.milano@gmail.com';
+    $para= 'humanita.ong@gmail.com';
 
     //crear header
     $headers = 'From' . " " . $correo . "\r\n";    
@@ -52,7 +52,7 @@ if(isset($_POST['submit'])){
         </script>";
     }else{
         echo"<script languaje='javascript'>
-        alert('Fallado');
+        alert('Mensaje no enviado');
         </script>
         ";
     }
