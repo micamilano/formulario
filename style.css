@@ -91,11 +91,18 @@ footer {
   }
 }
 
-@media only screen and (max-device-width: 230px) {
+@media only screen and (max-device-width: 320px) {
   img {
     display: none;
   }
+
   footer {
+    padding: 5px;
+  }
+  #header {
     padding: 0;
+  }
+  #header-container {
+    border: none;
   }
 }
