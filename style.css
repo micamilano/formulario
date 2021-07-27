@@ -16,7 +16,7 @@ h1 {
 }
 
 #body-container {
-  width: 50vw;
+  width: 65vw;
   height: max-content;
   background-color: rgba(255, 255, 255, 0.788);
 }
@@ -50,6 +50,10 @@ form h3 {
   text-align: center;
 }
 
+form label {
+  font-size: 18px;
+}
+
 #firma-container {
   display: flex;
   flex-direction: column;
@@ -70,4 +74,28 @@ footer {
   text-align: center;
   padding: 25px;
   font-family: serif;
+}
+
+@media only screen and (max-device-width: 576px) {
+  #body-container {
+    width: 80vw;
+  }
+}
+
+@media only screen and (max-device-width: 480px) {
+  #body-container {
+    width: 100vw;
+  }
+  form label {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-device-width: 230px) {
+  img {
+    display: none;
+  }
+  footer {
+    padding: 0;
+  }
 }
